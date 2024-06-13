@@ -60,7 +60,7 @@ jobs:
 
           npm install
 
-          pm2 restart AWSproject
+          pm2 restart frontend
 
     - name: Remove Github Actions IP from security group
 
